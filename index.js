@@ -66,7 +66,8 @@ function superbowlWin(records){
     if (wins.result === "W"){
         return wins.year
     }
-    else {return undefined}
+    else (wins = undefined)
+        return undefined
 }
     //else if (wins.result !== "W"){
     //    return undefined
